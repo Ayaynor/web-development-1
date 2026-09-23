@@ -89,3 +89,18 @@ feedbackForm.addEventListener("submit", function (event) {
         feedback.value = "";
     }
 });
+
+const keyinfo = document.querySelector("#keyinfo");
+const keybox = document.querySelector("#keybox");
+
+document.addEventListener("keydown", function(event) {
+    console.log("Key pressed: " + event.key);
+    console.log("Key code: " + event.code);
+
+    if (keyinfo) {
+        keyinfo.textContent = "Key: " + event.key + " | Code: " + event.code;
+    }
+    if (keybox) {
+        keybox.textContent = event.key;
+    }
+});
