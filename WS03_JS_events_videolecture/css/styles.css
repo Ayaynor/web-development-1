@@ -1,0 +1,28 @@
+body {    
+    font-family: Arial, sans-serif;    
+    max-width: 800px;    
+    margin: 0 auto;    
+    padding: 25px;
+}
+h1 {    
+    color: rgb(10, 52, 84);
+    font-size: 60px;
+}
+h2 {
+    color: rgb(95, 95, 122);
+    font-size: 30px;
+}
+p {    
+    font-size: 18px;    
+    line-height: 1.6;
+}
+img {    
+    max-width: 100%; 
+    border: 8px ;
+    padding: 5px;
+    filter: grayscale(10);
+
+}
+.centertext {
+    text-align: center;
+}
